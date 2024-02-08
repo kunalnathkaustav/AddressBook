@@ -134,15 +134,15 @@ def load_lottie(filepath:str):
     with open(filepath, "r") as f:
         return json.load(f)
 
-head_emj = load_lottie("lotties\head_emj.json")
-feature_emj = load_lottie("lotties\feature.json")
-app_emj = load_lottie("lotties\app_emj.json")
-search_emj = load_lottie("lotties\search_emj.json")
-fav_emj = load_lottie("lotties\fav_emj.json")
-add_emj = load_lottie("lotties\add_emj.json")
-modify_emj = load_lottie("lotties\modify_emj.json")
-about_emj = load_lottie("lotties\about_emj.json")
-view_add_emj = load_lottie("lotties\view_address_emj.json")
+head_emj = load_lottie("lotties/head_emj.json")
+feature_emj = load_lottie("lotties/feature.json")
+app_emj = load_lottie("lotties/app_emj.json")
+search_emj = load_lottie("lotties/search_emj.json")
+fav_emj = load_lottie("lotties/fav_emj.json")
+add_emj = load_lottie("lotties/add_emj.json")
+modify_emj = load_lottie("lotties/modify_emj.json")
+about_emj = load_lottie("lotties/about_emj.json")
+view_add_emj = load_lottie("lotties/view_address_emj.json")
 
 
 
